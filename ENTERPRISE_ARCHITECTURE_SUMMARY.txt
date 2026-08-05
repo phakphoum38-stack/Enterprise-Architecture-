@@ -1,0 +1,19 @@
+Phakphum AI System Assistant - Enterprise Architecture Summary
+
+1. แยก UI และ Core
+2. Flutter ใช้เป็น UI และ Build
+3. Core ไม่ขึ้นกับ Flutter
+4. เปลี่ยน UI ได้ในอนาคต
+5. รองรับหลายแพลตฟอร์ม
+6. AI ช่วยพัฒนา ทดสอบ และ Build
+7. Release Package แยกจาก Developer Package
+8. ผู้ใช้ทั่วไปไม่ต้องติดตั้ง Flutter SDK
+9. Flutter Runtime ที่จำเป็นยังอยู่ใน Release
+10. ผู้พัฒนาได้รับ Source, Core, Docs และ Build Scripts
+
+ไฟล์ในชุด:
+- README_ENTERPRISE.md
+- ARCHITECTURE.md
+- DEVELOPMENT.md
+- BUILD_AND_RELEASE.md
+- SECURITY.md
